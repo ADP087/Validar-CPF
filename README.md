@@ -26,7 +26,7 @@ O objetivo principal foi praticar:
 
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla JS)
+- JavaScript
 
 ---
 

@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Src/style.css">
     <title>Validação de CPF</title>
 </head>
 <body>
     <div class="container">
-        <div class="cabecario">
+        <header>
             <h1>Validação de CPF</h1>
-        </div>
+        </header>
 
-        <form action="" method="post">
+        <form id="form" method="post">
             <h2>Informe o CPF:</h2>
 
-            <input type="text">
+            <input type="text" id="input-cpf" placeholder="000.000.000-00" maxlength="14">
+
+            <input type="submit" id="input-submit" value="Verificar">
         </form>
 
         <div class="resultado"></div>
-
-        <button>Verificar</button>
     </div>
 
-    <script src="script.js"></script>
+    <script src="Src/script.js"></script>
 </body>
 </html>
